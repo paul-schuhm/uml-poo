@@ -11,7 +11,7 @@
 
 ### Bibliographie
 
-<img src="./assets/biblio-uml.png" width="500"><img src="./assets/biblio-expression-besoins.png" width="500"><img src="./assets/biblio-modelisation-base-de-donnees.png" width="500"><img src="./assets/scrutured-analysis-de-marco.jpeg" width="500">
+<img src="./assets/biblio-uml.png" width="250"><img src="./assets/biblio-expression-besoins.png" width="250"><img src="./assets/biblio-modelisation-base-de-donnees.png" width="250"><img src="./assets/scrutured-analysis-de-marco.jpeg" width="250">
 
 - [UML 2.5 par la pratique](https://www.scholarvox.com/catalog/book/docid/88855423), de Pascal Roques, publié chez Eyrolles, 2018. Mieux maîtriser l'UML, avoir des outils pour analyser, représenter, documenter et *communiquer* sur/son système
 - [Expression des besoins pour le SI : Guide d'élaboration du cahier des charges](https://www.scholarvox.com/catalog/book/docid/88935607?searchterm=Expression%20des%20besoins%20pour%20le%20SI), d'Yves Constantinidis, publié chez Eyrolles (2022). Un classique qui vous donne un ensemble d'outils, de conseils pratiques (et éprouvés !) et de *méthodes* pour recueillir et formaliser les besoins
