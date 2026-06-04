@@ -9,6 +9,10 @@
   - [Logiciels](#logiciels)
 
 
+## Fiche de problèmes (pratique)
+
+- [Accéder à la fiche](./problemes-clean.md)
+
 ## Templates
 
 - [Accéder aux templates](./templates/)
