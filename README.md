@@ -1,11 +1,17 @@
 # UML et conception orientée objet
 
 - [UML et conception orientée objet](#uml-et-conception-orientée-objet)
+  - [Templates](#templates)
   - [Ressources utiles](#ressources-utiles)
     - [Bibliographie](#bibliographie)
     - [*Méthodes* de conception logicielle](#méthodes-de-conception-logicielle)
     - [Langages de modélisation](#langages-de-modélisation)
   - [Logiciels](#logiciels)
+
+
+## Templates
+
+- [Accéder aux templates](./templates/)
 
 ## Ressources utiles
 
