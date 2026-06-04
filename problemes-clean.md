@@ -1,40 +1,24 @@
 # Problèmes de modélisation UML
 
--   [Problèmes de modélisation UML](#problèmes-de-modélisation-uml)
-    -   [Diagrammes UML abordés](#diagrammes-uml-abordés)
-    -   [Partie 1 : Diagrammes de cas d'utilisation, description
-        textuelles des cas d'utilisation (rédaction des
-        spécifications)](#partie-1--diagrammes-de-cas-dutilisation-description-textuelles-des-cas-dutilisation-rédaction-des-spécifications)
-        -   [Problème 1 : Identification des acteurs et recensement des
-            cas
-            d'utilisation](#problème-1--identification-des-acteurs-et-recensement-des-cas-dutilisation)
-        -   [Problème 2 : Relations entre cas
-            d'utilisation](#problème-2--relations-entre-cas-dutilisation)
-        -   [Problème 3 : Cas internes](#problème-3--cas-internes)
-        -   [Problème 4 : Identification des acteurs, recensement des
-            cas d'utilisation et relations entre
-            cas](#problème-4--identification-des-acteurs-recensement-des-cas-dutilisation-et-relations-entre-cas)
-        -   [Problème 5 : Description textuelle d'un cas
-            d'utilisation](#problème-5--description-textuelle-dun-cas-dutilisation)
-        -   [Problème 6 : Relations entre acteurs, extensions
-            conditionnelles entre cas
-            d'utilisation](#problème-6--relations-entre-acteurs-extensions-conditionnelles-entre-cas-dutilisation)
-        -   [Problème 7 : Application](#problème-7--application)
-    -   [Partie 2 : Diagrammes de
-        classes](#partie-2--diagrammes-de-classes)
-        -   [Problème 1 : Propriétés d'une
-            classe](#problème-1--propriétés-dune-classe)
-        -   [Problème 2 : Classe
-            stéréotypée](#problème-2--classe-stéréotypée)
-        -   [Problème 3 : Exploration à partir de
-            données](#problème-3--exploration-à-partir-de-données)
-        -   [Problème 4 : Associations](#problème-4--associations)
-        -   [Problème 5 : Héritage](#problème-5--héritage)
-        -   [Problème 6 : Classe active](#problème-6--classe-active)
-        -   [Problème 7 : Associations et
-            cardinalité](#problème-7--associations-et-cardinalité)
-        -   [Problème 8 : Savoir comprendre et utiliser un diagramme de
-            classes](#problème-8--savoir-comprendre-et-utiliser-un-diagramme-de-classes)
+- [Problèmes de modélisation UML](#problèmes-de-modélisation-uml)
+  - [Diagrammes UML abordés](#diagrammes-uml-abordés)
+  - [Partie 1 : Diagrammes de cas d'utilisation, description textuelles des cas d'utilisation (rédaction des spécifications)](#partie-1--diagrammes-de-cas-dutilisation-description-textuelles-des-cas-dutilisation-rédaction-des-spécifications)
+    - [Problème 1 : Identification des acteurs et recensement des cas d'utilisation](#problème-1--identification-des-acteurs-et-recensement-des-cas-dutilisation)
+    - [Problème 2 : Relations entre cas d'utilisation](#problème-2--relations-entre-cas-dutilisation)
+    - [Problème 3 : Cas internes](#problème-3--cas-internes)
+    - [Problème 4 : Identification des acteurs, recensement des cas d'utilisation et relations entre cas](#problème-4--identification-des-acteurs-recensement-des-cas-dutilisation-et-relations-entre-cas)
+    - [Problème 5 : Description textuelle d'un cas d'utilisation](#problème-5--description-textuelle-dun-cas-dutilisation)
+    - [Problème 6 : Relations entre acteurs, extensions conditionnelles entre cas d'utilisation](#problème-6--relations-entre-acteurs-extensions-conditionnelles-entre-cas-dutilisation)
+    - [Problème 7 : Application](#problème-7--application)
+  - [Partie 2 : Diagrammes de classes](#partie-2--diagrammes-de-classes)
+    - [Problème 1 : Propriétés d'une classe](#problème-1--propriétés-dune-classe)
+    - [Problème 2 : Classe stéréotypée](#problème-2--classe-stéréotypée)
+    - [Problème 3 : Exploration à partir de données](#problème-3--exploration-à-partir-de-données)
+    - [Problème 4 : Associations](#problème-4--associations)
+    - [Problème 5 : Héritage](#problème-5--héritage)
+    - [Problème 6 : Classe active](#problème-6--classe-active)
+    - [Problème 7 : Associations et cardinalité](#problème-7--associations-et-cardinalité)
+    - [Problème 8 : Savoir comprendre et utiliser un diagramme de classes](#problème-8--savoir-comprendre-et-utiliser-un-diagramme-de-classes)
 
 ## Diagrammes UML abordés
 
@@ -72,7 +56,7 @@ d'essence par un client.
 
 Quel est le défaut du diagramme suivant ?
 
-`<img src="assets/exercice4-relations-entre-cas-utilisation.png" width=100%/>`{=html}
+<img src="assets/exercice4-relations-entre-cas-utilisation.png" width=100%/>
 
 ### Problème 3 : Cas internes
 
@@ -82,7 +66,7 @@ Quel est le défaut du diagramme suivant ?
     en hôtel. Le client doit disposer d'un taxi quand il arrive à la
     gare pour se rendre à l'hôtel.
 
-`<img src="assets/exercice5-cas-internes.png" width=100%/>`{=html}
+<img src="assets/exercice5-cas-internes.png" width=100%/>
 
 2.  Certains clients demandent à l'agent de voyages d'établir une
     facture détaillée. Cela donne lieu à un nouveau cas d'utilisation
@@ -199,7 +183,7 @@ standards UML.
 
 ### Problème 3 : Exploration à partir de données
 
-`<img src="./assets/tickets.jpg" width=300/>`{=html}
+<img src="./assets/tickets.jpg" width=300/>
 
 Voici deux *tickets de caisse* émis par un bistrot pour un client.
 
@@ -292,7 +276,7 @@ suivantes :
 
 ### Problème 8 : Savoir comprendre et utiliser un diagramme de classes
 
-`<img src="./assets/exercice-diag-classe-expliquer.png" width=300/>`{=html}
+<img src="./assets/exercice-diag-classe-expliquer.png" width=300/>
 
 1.  **Expliquez** le diagramme de classes.
 2.  **Implémentez-le** dans un langage de votre choix (en CLI).
