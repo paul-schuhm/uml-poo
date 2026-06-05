@@ -1,21 +1,26 @@
 # UML et conception orientée objet
 
 - [UML et conception orientée objet](#uml-et-conception-orientée-objet)
-  - [Templates](#templates)
+  - [Fiche de problèmes (pratique)](#fiche-de-problèmes-pratique)
+  - [Templates (Descrption textuelle cas d'utilisation, scénario, etc.)](#templates-descrption-textuelle-cas-dutilisation-scénario-etc)
+  - [Introduction à la programmation orientée objet (Héritage, polymorphisme, etc.)](#introduction-à-la-programmation-orientée-objet-héritage-polymorphisme-etc)
   - [Ressources utiles](#ressources-utiles)
     - [Bibliographie](#bibliographie)
     - [*Méthodes* de conception logicielle](#méthodes-de-conception-logicielle)
     - [Langages de modélisation](#langages-de-modélisation)
   - [Logiciels](#logiciels)
 
-
 ## Fiche de problèmes (pratique)
 
 - [Accéder à la fiche](./problemes-clean.md)
 
-## Templates
+## Templates (Descrption textuelle cas d'utilisation, scénario, etc.)
 
 - [Accéder aux templates](./templates/)
+
+## Introduction à la programmation orientée objet (Héritage, polymorphisme, etc.)
+
+- [Accéder aux démos](./demo-poo-primitives/), en PHP, mais programmable dans n'importe quel langage qui supporte l'orienté objet : C++, Java, C#, Python, etc. Présente les notions suivantes : classe, visibilité, classe abstraite, interface, héritage, implémentation, polymorphisme
 
 ## Ressources utiles
 
