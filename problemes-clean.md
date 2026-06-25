@@ -292,8 +292,6 @@ déplie son bras, attrape la pièce avec sa pince, replie son bras puis relâche
 
 <img src="./assets/exercice-11-diag-seq-comm.png" width=300/>
 
-![](assets/exercice-11-diag-seq-comm.png)
-
 1. **Représenter** à l’aide d’un diagramme de séquence l’échange des messages entre les
 objets robot, brasArticulé et pince.
 1. **Transformer** le diagramme de séquence en un diagramme de communication.
