@@ -290,7 +290,7 @@ Le diagramme de classes présenté à la figure ci-dessous modélise un robot qu
 articulé se terminant par une pince. Le fonctionnement du robot est le suivant : le robot
 déplie son bras, attrape la pièce avec sa pince, replie son bras puis relâche la pièce.
 
-<img src="./assets/exercice-11-diag-seq-comm.png" width=300/>
+<img src="./assets/exercice-11-diag-seq-comm.png" width=600/>
 
 1. **Représenter** à l’aide d’un diagramme de séquence l’échange des messages entre les
 objets robot, brasArticulé et pince.
