@@ -19,7 +19,7 @@
     - [Problème 6 : Classe active](#problème-6--classe-active)
     - [Problème 7 : Associations et cardinalité](#problème-7--associations-et-cardinalité)
     - [Problème 8 : Savoir comprendre et utiliser un diagramme de classes](#problème-8--savoir-comprendre-et-utiliser-un-diagramme-de-classes)
-  - [Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication](#problème-9--aspect-dynamique-traduction-dun-diagramme-de-séquence-en-diagramme-de-communication)
+    - [Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication](#problème-9--aspect-dynamique-traduction-dun-diagramme-de-séquence-en-diagramme-de-communication)
 
 ## Diagrammes UML abordés
 
@@ -284,7 +284,7 @@ suivantes :
     **Réalisez** une démonstration du système pour réserver une salle
     sur un créneau donné.
 
-## Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication
+### Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication
 
 Le diagramme de classes présenté à la figure ci-dessous modélise un robot qui dispose d’un bras
 articulé se terminant par une pince. Le fonctionnement du robot est le suivant : le robot
