@@ -19,7 +19,10 @@
     - [Problème 6 : Classe active](#problème-6--classe-active)
     - [Problème 7 : Associations et cardinalité](#problème-7--associations-et-cardinalité)
     - [Problème 8 : Savoir comprendre et utiliser un diagramme de classes](#problème-8--savoir-comprendre-et-utiliser-un-diagramme-de-classes)
-    - [Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication](#problème-9--aspect-dynamique-traduction-dun-diagramme-de-séquence-en-diagramme-de-communication)
+  - [Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication](#problème-9--aspect-dynamique-traduction-dun-diagramme-de-séquence-en-diagramme-de-communication)
+  - [Problème 10 : Diagramme d'activités](#problème-10--diagramme-dactivités)
+    - [Problème 11 : Diagramme d'activités](#problème-11--diagramme-dactivités)
+    - [Problème 12 : Diagramme d'états-transitions](#problème-12--diagramme-détats-transitions)
 
 ## Diagrammes UML abordés
 
@@ -27,7 +30,7 @@
 -   Diagramme de classes
 -   Diagramme de séquence
 -   Diagramme de communication
--   Diagramme d'états transitions
+-   Diagramme d'états/transitions
 -   Diagramme d'activités
 
 ## Partie 1 : Diagrammes de cas d'utilisation, description textuelles des cas d'utilisation (rédaction des spécifications)
@@ -284,19 +287,87 @@ suivantes :
     **Réalisez** une démonstration du système pour réserver une salle
     sur un créneau donné.
 
-### Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication
+## Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication
 
-Le diagramme de classes présenté à la figure ci-dessous modélise un robot qui dispose d’un bras
-articulé se terminant par une pince. Le fonctionnement du robot est le suivant : le robot
-déplie son bras, attrape la pièce avec sa pince, replie son bras puis relâche la pièce.
+Le diagramme de classes présenté à la figure ci-dessous modélise un
+robot qui dispose d'un bras articulé se terminant par une pince. Le
+fonctionnement du robot est le suivant : le robot déplie son bras,
+attrape la pièce avec sa pince, replie son bras puis relâche la pièce.
 
-<img src="./assets/exercice-11-diag-seq-comm.png" width=600/>
 
-1. **Représenter** à l’aide d’un diagramme de séquence l’échange des messages entre les
-objets robot, brasArticulé et pince.
-1. **Transformer** le diagramme de séquence en un diagramme de communication.
-2. **Écriver** en pseudo-code les classes Robot, BrasArticulé et Pince.
-collaboration
+<img src="./assets/exercice-11-diag-seq-comm.png" width=300/>
+
+1.  **Représenter** à l'aide d'un diagramme de séquence l'échange des
+    messages entre les objets robot, brasArticulé et pince.
+2.  **Transformer** le diagramme de séquence en un diagramme de
+    communication.
+3.  **Écriver** en *pseudo-code* les classes `Robot`, `BrasArticulé` et `Pince`.
+
+## Problème 10 : Diagramme d'activités
+
+Un site de vente en ligne propose des produits, placés dans un panier
+virtuel tandis que l'utilisateur navigue.
+
+Pour valider ses achats, il clique sur le bouton *Sortir du magasin*. On
+lui propose alors de se connecter à un compte existant, ou d'en créer un
+s'il n'en a pas encore.
+
+Pour créer un nouveau compte, l'utilisateur doit fournir une adresse de
+messagerie, qui sert également de *login*, son nom et son adresse,
+*éventuellement* une adresse de livraison, et ses coordonnées bancaires.
+On prévoit le cas où l'adresse de messagerie est déjà associée à un
+compte. Si la validation de ces informations réussit, on crée un nouveau
+compte et l'on propose à l'utilisateur de s'y connecter.
+
+On passe ensuite à la confirmation des achats.
+
+**Modéliser** cette procédure à l'aide d'un **diagramme d'activités**.
+
+### Problème 11 : Diagramme d'activités
+
+Les chaînes de caractères du langage C sont codées comme un tableau de
+caractères non nuls, terminé par un caractère `\0` . Par exemple, la
+chaîne `s="hello!`" est codée comme suit :
+
+``` c
+s[0] s[1] s[2] s[3] s[4] s[5] s[6]
+‘h’ ’e’ ’l’ ’l’ ’o’ ’!’ ’\0’
+```
+
+1.  **Décrivez une activité (série d'actions)** implémentant la fonction
+    `strlen()` , qui prend en entrée un tableau de caractères et
+    retourne un entier correspondant à la taille de la chaîne. Exemple :
+
+``` c
+//Retourne 6
+strlen("hello!")
+```
+
+2.  **Proposez le diagramme d'activités** qui compte les **mots**, les
+    **lignes** et les **caractères** de son entrée en vous aidant des
+    opérations/fonctions suivantes. Une fois l'entrée analysée, la
+    dernière action est d'afficher les métriques obtenues :
+
+-   L'opération `getchar()` lit le prochain caractère disponible sur
+    l'entrée. S'il s'agit du caractère spécial `EOF` (*End of File*) ,
+    le programme **affiche ses résultats** et se **termine**.
+-   L'opération `bool isWhitespace(c:char)` retourne vrai si le
+    caractère passé en argument est considéré comme un espace, faux
+    sinon
+
+### Problème 12 : Diagramme d'états-transitions
+
+**Représenter** par un **diagramme d'états-transitions** les états que
+peut prendre un individu du point de vue de l'INSEE :
+
+-   vivant
+-   décédé
+-   mineur
+-   majeur
+-   célibataire
+-   marié
+-   veuf
+-   divorcé.
 
 > Certains exercices présentés ici sont tirés du livre ["UML2 Pratique
 > de la modélisation, 2eme édition
