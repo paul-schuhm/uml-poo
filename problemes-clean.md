@@ -19,10 +19,12 @@
     - [Problème 6 : Classe active](#problème-6--classe-active)
     - [Problème 7 : Associations et cardinalité](#problème-7--associations-et-cardinalité)
     - [Problème 8 : Savoir comprendre et utiliser un diagramme de classes](#problème-8--savoir-comprendre-et-utiliser-un-diagramme-de-classes)
-  - [Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication](#problème-9--aspect-dynamique-traduction-dun-diagramme-de-séquence-en-diagramme-de-communication)
-  - [Problème 10 : Diagramme d'activités](#problème-10--diagramme-dactivités)
-    - [Problème 11 : Diagramme d'activités](#problème-11--diagramme-dactivités)
-    - [Problème 12 : Diagramme d'états-transitions](#problème-12--diagramme-détats-transitions)
+  - [Partie 3 : Diagrammes de communication et de séquence](#partie-3--diagrammes-de-communication-et-de-séquence)
+    - [Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication](#problème-9--aspect-dynamique-traduction-dun-diagramme-de-séquence-en-diagramme-de-communication)
+  - [Partie 4 : Diagrammes d'états/transitions et d'activités](#partie-4--diagrammes-détatstransitions-et-dactivités)
+    - [Problème 10 : Flot d'un site d'e-commerce](#problème-10--flot-dun-site-de-commerce)
+    - [Problème 11 : Décrire des algorithmes](#problème-11--décrire-des-algorithmes)
+    - [Problème 12 : Modélisation d'états composites avec l'INSEE](#problème-12--modélisation-détats-composites-avec-linsee)
 
 ## Diagrammes UML abordés
 
@@ -287,7 +289,10 @@ suivantes :
     **Réalisez** une démonstration du système pour réserver une salle
     sur un créneau donné.
 
-## Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication
+## Partie 3 : Diagrammes de communication et de séquence
+
+
+### Problème 9 : Aspect dynamique, traduction d'un diagramme de séquence en diagramme de communication
 
 Le diagramme de classes présenté à la figure ci-dessous modélise un
 robot qui dispose d'un bras articulé se terminant par une pince. Le
@@ -303,7 +308,10 @@ attrape la pièce avec sa pince, replie son bras puis relâche la pièce.
     communication.
 3.  **Écriver** en *pseudo-code* les classes `Robot`, `BrasArticulé` et `Pince`.
 
-## Problème 10 : Diagramme d'activités
+## Partie 4 : Diagrammes d'états/transitions et d'activités
+
+
+### Problème 10 : Flot d'un site d'e-commerce
 
 Un site de vente en ligne propose des produits, placés dans un panier
 virtuel tandis que l'utilisateur navigue.
@@ -323,7 +331,7 @@ On passe ensuite à la confirmation des achats.
 
 **Modéliser** cette procédure à l'aide d'un **diagramme d'activités**.
 
-### Problème 11 : Diagramme d'activités
+### Problème 11 : Décrire des algorithmes
 
 Les chaînes de caractères du langage C sont codées comme un tableau de
 caractères non nuls, terminé par un caractère `\0` . Par exemple, la
@@ -355,7 +363,7 @@ strlen("hello!")
     caractère passé en argument est considéré comme un espace, faux
     sinon
 
-### Problème 12 : Diagramme d'états-transitions
+### Problème 12 : Modélisation d'états composites avec l'INSEE
 
 **Représenter** par un **diagramme d'états-transitions** les états que
 peut prendre un individu du point de vue de l'INSEE :
