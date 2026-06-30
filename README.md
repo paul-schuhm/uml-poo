@@ -4,7 +4,7 @@
   - [Ressources utiles](#ressources-utiles)
     - [Bibliographie](#bibliographie)
     - [*Méthodes* de conception logicielle](#méthodes-de-conception-logicielle)
-    - [Langages de modélisation](#langages-de-modélisation)
+    - [Langages de modélisation / Outils de spécification](#langages-de-modélisation--outils-de-spécification)
   - [Logiciels](#logiciels)
 
 ## Ressources utiles
@@ -26,12 +26,14 @@
 - [Méthode Agile](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile)
 - [Extreme Programming](https://fr.wikipedia.org/wiki/Extreme_programming)
 
-### Langages de modélisation
+### Langages de modélisation / Outils de spécification
 
 - UML
 - [OOSE](https://fr.wikipedia.org/wiki/Object_Oriented_Software_Engineering)
 - [BON](https://en.wikipedia.org/wiki/Business_Object_Notation)
 - [Modèle Entité-Association](https://fr.wikipedia.org/wiki/Mod%C3%A8le_entit%C3%A9-association), spécifique aux bases de données
+- [Structured Analysis](https://en.wikipedia.org/wiki/Structured_analysis)
+
 
 ## Logiciels
 
